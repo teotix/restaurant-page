@@ -1,5 +1,6 @@
 import "../styles.css";
 import createItem from "../components/item";
+import Restaurant from "../images/restaurant.jpg";
 
 const content = document.querySelector("#content");
 
@@ -22,7 +23,7 @@ export default function createHomePage() {
   const footerP = document.createElement("p");
 
   image.id = "main-image";
-  image.src = "/src/images/restaurant.jpg";
+  image.src = Restaurant;
   image.alt = "Restaurant";
   top.id = "top";
   main.id = "main";
@@ -42,7 +43,7 @@ export default function createHomePage() {
   specials.appendChild(specialsHeader);
 
   foodItems.forEach((item) => {
-    const foodItem = createItem(`/src/images/${item}.jpg`, item);
+    const foodItem = createItem(item);
     specials.appendChild(foodItem);
   });
 
