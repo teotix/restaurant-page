@@ -1,0 +1,24 @@
+#about {
+    height: calc(100vh - 4rem);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    align-items: center;
+    justify-content: center;
+    background-color: #c0c0c0;
+
+    h1 {
+        grid-column: 1 / -1;
+        grid-row: 1/2;
+        text-align: center;
+        font-size: 3.5rem;
+    }
+
+    p {
+        grid-column: 2 / -2;
+        grid-row: 2/3;
+        text-align: center;
+        font-size: 1.3rem;
+        margin: 2rem;
+    }
+}

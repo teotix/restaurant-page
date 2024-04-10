@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-header {
+#header {
     background-color: #333;
     color: rgb(39, 36, 36);
     text-align: center;
@@ -20,6 +20,7 @@ header {
         justify-content: space-around;
 
         button {
+            width: 100%;
             background-color: #333;
             color: white;
             border: none;
@@ -44,10 +45,11 @@ header {
 #content {
     display: flex;
     flex-direction: column;
+
     h1 {
         font-size: 3.5rem;
     }
-    
+}
 
 #top {
     display: flex;
@@ -57,12 +59,14 @@ header {
     gap: 2rem;
     padding: 2rem;
     margin: 1.5rem;
+
     p {
         font-size: 1.3rem;
-}
+    }
 }
 
-#specials, #menu {
+#specials,
+#menu {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
     grid-template-rows: repeat(2, auto);
@@ -83,6 +87,7 @@ header {
     div {
         display: flex;
         flex-direction: column;
+        background-color: #ffffff;
         gap: 1rem;
         padding: 1rem;
         border: 1px solid #333;
@@ -101,6 +106,7 @@ header {
 #specials {
     background-color: #c9c9c9;
 }
+
 #menu {
     background-color: #b4b4b4;
 }
