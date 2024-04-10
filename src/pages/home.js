@@ -1,6 +1,6 @@
 import "../styles.css";
 import createItem from "../components/item";
-import Restaurant from "../images/restaurant.jpg";
+import Restaurant from "./src/images/restaurant.jpg";
 
 const content = document.querySelector("#content");
 

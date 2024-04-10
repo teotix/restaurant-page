@@ -1,7 +1,7 @@
-import burger from "../images/burger.jpg";
-import sushi from "../images/sushi.jpg";
-import cordonbleu from "../images/cordonbleu.jpg";
-import steak from "../images/steak.jpg";
+import burger from "./src/images/burger.jpg";
+import sushi from "./src/images/sushi.jpg";
+import cordonbleu from "./src/images/cordonbleu.jpg";
+import steak from "./src/images/steak.jpg";
 
 export default function createItem(food) {
   const item = document.createElement("div");
