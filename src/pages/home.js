@@ -52,11 +52,11 @@ export default function createHomePage() {
   menu.appendChild(menuHeader);
 
   foodItems.forEach((item) => {
-    const foodItem = createItem(`/src/images/${item}.jpg`, item);
+    const foodItem = createItem(item);
     menu.appendChild(foodItem);
   });
   foodItems.forEach((item) => {
-    const foodItem = createItem(`/src/images/${item}.jpg`, item);
+    const foodItem = createItem(item);
     menu.appendChild(foodItem);
   });
 
